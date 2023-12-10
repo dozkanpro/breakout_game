@@ -1,4 +1,4 @@
-from turtle import Screen, Turtle
+from turtle import Screen
 from paddle import Paddle
 from ball import Ball
 from brick import Brick
@@ -14,7 +14,7 @@ ball_speed_increase = [4, 12, 16]
 
 # Create Screen
 screen = Screen()
-screen.bgcolor("white")
+screen.bgcolor("black")
 screen.setup(width=800, height=600)
 screen.title("Breakout Game")
 screen.tracer(0)
